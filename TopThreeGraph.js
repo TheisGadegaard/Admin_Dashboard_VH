@@ -45,12 +45,7 @@ const TopThreeDoughnut = (props) => {
                 console.error("Invalid graphType in TopThreeGraph");
         }
     }
-
-    const [name, setName] = useState("Theis");
-
-
-    setName(name);
-
+    
     const handleDataForGraph = (serverResponse) => {
         let names = [];
         let count = [];
